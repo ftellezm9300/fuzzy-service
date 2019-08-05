@@ -10,7 +10,10 @@ para determinar que tan similares son dos cadenas de caracteres. El algoritmo cu
 una cadena de caracteres en otra. En nuestro programa, se utilizó para medir el nombre con el menor número de operaciones requeridas para 
 transformarse en el parámetro de búsqueda.
 
-Para ejecutar las operaciones desde línea de comandos, se agrega el programa application.bat:
+Para levantar el servicio API Rest, se requiere la instalación de java version 1.8 o superior y ejecutar el siguiente archivo jar:
+java -jar service-fuzzy.jar
+
+Para ejecutar las operaciones desde línea de comandos, se utiliza el programa application.bat:
 1) application list
 2) application add {\"name\":\"Manuela Torres\"}
 3) application fuzzy-search {\"search\":\"Manuela\"}
